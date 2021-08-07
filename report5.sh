@@ -58,7 +58,7 @@ check_argnum ${argnum}
 exit_cd=$?
 #echo "check_argnum: ${exit_cd}"
 if [ ${exit_cd} -ne 0 ]; then
-    echo "ERROR: wrong number of arguments(given ${argnum}, expected 2)"
+    echo "[ERROR] wrong number of arguments(given ${argnum}, expected 2)"
     exit ${exit_cd}
 fi
 
@@ -67,7 +67,7 @@ is_naturalnum ${arg1}
 exit_cd=$?
 #echo "is_naturalnum(arg1): ${exit_cd}"
 if [ ${exit_cd} -ne 0 ]; then
-    echo "ERROR: Arg1(${arg1}) is Not natural number"
+    echo "[ERROR] Arg1(${arg1}) is not natural number"
     exit ${exit_cd}
 fi
 
@@ -76,7 +76,7 @@ is_naturalnum ${arg2}
 exit_cd=$?
 #echo "is_naturalnum(arg2): ${exit_cd}"
 if [ ${exit_cd} -ne 0 ]; then
-    echo "ERROR: Arg2(${arg2}) is Not natural number"
+    echo "[ERROR] Arg2(${arg2}) is not natural number"
     exit ${exit_cd}
 fi
 
