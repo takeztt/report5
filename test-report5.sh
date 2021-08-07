@@ -38,7 +38,7 @@ if [ ${result} -ne 6 ]; then
     exit_cd=100
 fi
 
-echo "All test finished"
+#echo "All test finished"
 
 exit ${exit_cd}
 
