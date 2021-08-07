@@ -1,4 +1,5 @@
 # report5
+https://github.com/takeztt/report5
 - report5.sh : 引数に指定された２つの自然数の最大公約数を表示するスクリプト
 - test-report5.sh : 「report5.sh」のテスト用スクリプト
 
